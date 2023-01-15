@@ -213,13 +213,26 @@ ul li a {
     font-size: 50px;
     color: #FF900E;
 }
+/* Location Section */
+.locations {
+    width: 80%;
+    margin: 0 auto;
+}
+.countries {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.fa-location-dot {
+    color: green;
+}
 
 /* Sponsor Section */
 
 .sponsors {
     text-align: center;
     width: 80%;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 .sponsor-name {
