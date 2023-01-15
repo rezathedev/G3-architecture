@@ -37,6 +37,19 @@ ul li {
 
 ul li a {
     text-decoration: none;
+    color:#131313
+    ;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313
+}
+
+.banner-description {
+    font-size: 16px;
+    color: #727272;
 }
 
 /* Banner style */
@@ -83,6 +96,7 @@ ul li a {
     column-gap: 50px;
     
 }
+
 .section-title {
     font-weight: 500;
     font-size: 45px;
@@ -96,6 +110,10 @@ ul li a {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 24px;
+}
+
+.list-images img {
+    width: 250px;
 }
 
 .list-text p {
@@ -120,6 +138,10 @@ ul li a {
     margin: 40px auto;
    
 }
+.special {
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
 
 .features img {
     height: 100%;
@@ -143,6 +165,7 @@ ul li a {
     margin-right: 50px;
     
 }
+
 
 .experience-button {
     text-align: center;
@@ -201,6 +224,7 @@ ul li a {
     display: flex;
     justify-content: space-between;
     margin: 50px;
+    filter: grayscale(100%);
 }
 
 footer {
