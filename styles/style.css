@@ -34,6 +34,9 @@ ul {
 ul li {
     list-style: none;
 }
+ul li:hover {
+    background-color: #FF900E;
+}
 
 ul li a {
     text-decoration: none;
@@ -220,7 +223,7 @@ ul li a {
 }
 .countries {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 50px 0px;
     text-align: center;
 }
