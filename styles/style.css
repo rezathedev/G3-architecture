@@ -79,12 +79,13 @@ ul li a {
     display: flex;
     align-items: center;
     width: 80%;
-    margin: auto; 
+    margin: 40px auto; 
     
 }
 .section-title {
     font-weight: 500;
     font-size: 45px;
+    margin-bottom: 24px;
 }
 .section-description {
     font-weight: 400;
@@ -143,13 +144,22 @@ ul li a {
     margin-right: 50px;
     
 }
-/* Stat Section */
 
+.experience-button {
+    text-align: center;
+}
+/* Stat Section */
+.facts {
+    justify-content: space-between;
+    width: 80%;
+    margin: 40px auto;
+}
 .stat {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 70px;
     text-align: center;
+    margin: 70px 0px;
     
 }
 .stat>div {
@@ -158,6 +168,43 @@ ul li a {
     padding: 35px 45px;
 }
 
+.stat-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.stat-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+.fa-solid {
+    font-size: 50px;
+    color: #FF900E;
+}
+
+/* Sponsor Section */
+
+.sponsors {
+    text-align: center;
+}
+
+.sponsor-name {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px 100px;
+    width: 80%;
+    margin: 0 auto;
+}
 /* @media screen and (max-width: 500px) {
     .banner-text {
         width: 100%;
