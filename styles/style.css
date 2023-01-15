@@ -79,7 +79,8 @@ ul li a {
     display: flex;
     align-items: center;
     width: 80%;
-    margin: 40px auto; 
+    margin: 40px auto;
+    column-gap: 50px;
     
 }
 .section-title {
@@ -95,9 +96,6 @@ ul li a {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 24px;
-}
-.list-text {
-    margin-left: 70px;
 }
 
 .list-text p {
