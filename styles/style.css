@@ -115,7 +115,8 @@ ul li a {
 
 /* Features Section */
 .features {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     justify-content: space-between;
     width: 80%;
     margin: 40px auto;
