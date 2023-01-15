@@ -43,7 +43,7 @@ ul li a {
 
 .banner-title {
     font-weight: 700;
-    font-size: 64px;
+    font-size: 60px;
     color: #131313
 }
 
@@ -171,6 +171,7 @@ ul li a {
 .experience-button {
     text-align: center;
 }
+
 /* Stat Section */
 .facts {
     justify-content: space-between;
