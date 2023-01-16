@@ -139,7 +139,7 @@ ul li a {
     grid-template-columns: repeat(2,1fr);
     justify-content: space-between;
     width: 80%;
-    margin: 40px auto;
+    margin: 100px auto;
    
 }
 .special {
@@ -170,10 +170,22 @@ ul li a {
     
 }
 
-
-.experience-button {
-    text-align: center; 
+.feature-image {
+    position: relative;
 }
+.experience {
+    text-align: center;
+    position: absolute;
+    top: 98%;
+    right: 80%;
+    padding-bottom: 50px;
+}
+
+.experience small {
+    font-size: 15 px;
+}
+
+
 
 /* Stat Section */
 .facts {
@@ -283,6 +295,13 @@ footer {
         width: 80%;
         margin: 40px auto;
        
+    }
+    .experience {
+        left: 20%;
+        top: 90%;
+    }
+    .countries > div {
+        margin-bottom: 20px;
     }
     .sponsor-name img {
         width: 50%;
